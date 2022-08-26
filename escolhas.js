@@ -64,19 +64,19 @@ function linguagensAprender(){
 
             alert("Ok, até mais! A seguir, sua lista de estudos")
             alert(listaEstudos)
-            break
+            break;
 
         }
         if (estudarMais == "S"){
 
-            let = linguagemEstudar = prompt("Digite o nome da linguagem")
+            let linguagemEstudar = prompt("Digite o nome da linguagem")
             listaEstudos.push(linguagemEstudar)
             linguagem += 1
-            continue
+            continue;
 
         } else {
             alert("Até mais!")
-            break
+            break;
         }
 
     }
@@ -85,4 +85,3 @@ function linguagensAprender(){
 escolherArea();
 especializar_ou_fullstack();
 linguagensAprender();
-
